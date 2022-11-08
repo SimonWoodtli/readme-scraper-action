@@ -1,0 +1,12 @@
+# action.yml
+name: "readme-scraper-action"
+description: "Auto generate a Github README.md with wakatime stats"
+author: "Simon Donald Woodtli"
+
+runs:
+  using: "docker"
+  image: "docker://simonwoodtli/readme-scraper"
+
+branding:
+  icon: "file-text"
+  color: "green"
